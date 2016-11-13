@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<title>Housing Cost</title>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="styles.css"/>
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<script type="text/javascript">
@@ -36,19 +37,16 @@
 			data.addColumn('number', 'Date');
 			data.addColumn('number', 'Average');
 			data.addRows(intodata);
-			var options = {chart: {title: '', subtitle: ''}, width: 1000, height: 500, axes: {x: {0: {side: 'bottom'}}}
-     		};
-		var chart = new google.charts.Line(document.getElementById('chart_div'));
-		chart.draw(data, options);
+			var options = {chart: {title: '', subtitle: ''}, width: 1000, height: 500, axes: {x: {0: {side: 'bottom'}}}};
+			var chart = new google.charts.Line(document.getElementById('chart_div'));
+			chart.draw(data, options);
 		}
 	</script>
 </head>
 <body>
-	<img src="house-fishing.png" alt="House fishing" width="250px" height="250px"></img>
+	<img src="house-fishing.png" alt="House fishing" width="250" height="250">	
 	<h1>House-Fishing.net</h1>
 	<h2>Where our info can lead to your biggest "catch".</h2>
-	<tr>
-		<td><div id="chart_div"></div></td>
-	</tr>
+	<div id="chart_div"></div>
 </body>
 </html>
