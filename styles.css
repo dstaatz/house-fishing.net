@@ -1,5 +1,12 @@
 body
 {
-	text-align: center;
-	backgroun-colo: brown;
+	background: url("canvas.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	text-align: center;	
+}
+
+#chart_div
+{
+	float: right;
 }
