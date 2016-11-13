@@ -1,5 +1,6 @@
 body
 {
+	font-family: Comic Sans, Comic Sans MS, cursive;
 	background: url("canvas.jpg");
 	background-attachment: fixed;
 	background-size: 100% 100%;
@@ -9,4 +10,26 @@ body
 #chart_div
 {
 	float: right;
+	padding-bottom: 30px;
+}
+
+#list
+{	
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	padding: auto;
+}
+
+#myList
+{
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	width: 100px;
+	height: 30px;
+	font-size: 18px;
+}
+
+h1
+{
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 300%;
+	color: #603021;
 }
